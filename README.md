@@ -2,9 +2,7 @@
 
 **Backend Software Engineer · NestJS · TypeScript · PostgreSQL**
 
-I build backend systems with a focus on **architecture, reliability, security, and distributed workflows**.
-
-**4+ years** building production software across backend, full-stack, and enterprise systems.
+Backend engineer with 4+ years of experience building production systems with TypeScript, NestJS, PostgreSQL, and Redis.
 
 ### Featured Project
 
@@ -12,25 +10,26 @@ I build backend systems with a focus on **architecture, reliability, security, a
 
 Production-oriented e-commerce backend built with **NestJS, TypeScript, DDD, and Hexagonal Architecture**.
 
-* Modular monolith with strict bounded-context boundaries
-* SAGA checkout with automatic compensation
-* Redis-backed idempotency, caching, and search
-* RBAC, IDOR protection, JWT/JWKS, refresh-token rotation
-* PostgreSQL + Redis + BullMQ
-* Prometheus, OpenTelemetry, Grafana, and structured logging
-* Docker + GitHub Actions + automated testing
+Built as a portfolio project to demonstrate production backend engineering beyond CRUD, including distributed workflows, concurrency control, security, observability, and failure handling.
+
+- Modular monolith with strict bounded-context boundaries
+- SAGA checkout with automatic compensation
+- Redis-backed idempotency, caching, and search
+- RBAC, IDOR protection, JWT/JWKS, and refresh-token rotation
+- PostgreSQL, Redis, BullMQ, and Docker
+- Prometheus, OpenTelemetry, Grafana, and structured logging
+- Automated testing and CI with GitHub Actions
 
 ### Stack
 
-**Backend:** TypeScript · Node.js · NestJS · PostgreSQL · Redis · BullMQ
-**Architecture:** DDD · Hexagonal · CQRS · SAGA · ACL · Idempotency
-**Security:** RBAC · JWT/JWKS · OAuth concepts · Rate Limiting
-**DevOps:** Docker · GitHub Actions · Linux
-**Observability:** Prometheus · OpenTelemetry · Grafana · Loki
+**Backend:** TypeScript · Node.js · NestJS · PostgreSQL · Redis · BullMQ  
+**Architecture:** DDD · Hexagonal · CQRS · SAGA · ACL · Idempotency  
+**Security:** RBAC · JWT/JWKS · Refresh Token Rotation · Rate Limiting  
+**DevOps & Observability:** Docker · GitHub Actions · Prometheus · OpenTelemetry · Grafana
 **Frontend:** Angular · RxJS · NgRx
 
 ### Currently
 
-Building production-oriented backend systems and looking for a **remote Backend Software Engineer / Software Engineer** opportunity.
+Open to **remote Backend Software Engineer / Software Engineer** opportunities.
 
 [LinkedIn](https://linkedin.com/in/rbdz) · [GitHub](https://github.com/raouf-b-dev)
