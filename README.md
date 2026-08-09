@@ -22,8 +22,6 @@ Built as a portfolio project to demonstrate production backend engineering beyon
 
 ### Stack
 
-### Stack
-
 **Backend:** TypeScript · Node.js · NestJS · PostgreSQL · Redis · BullMQ  
 **Architecture:** DDD · Hexagonal · CQRS · SAGA · ACL · Idempotency  
 **Security:** RBAC · JWT/JWKS · Refresh Token Rotation · Rate Limiting  
