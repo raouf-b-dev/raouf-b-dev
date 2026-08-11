@@ -32,4 +32,4 @@ Built as a portfolio project to demonstrate production backend engineering beyon
 
 Open to **remote Backend Software Engineer / Software Engineer** opportunities.
 
-[LinkedIn](https://linkedin.com/in/rbdz) · [GitHub](https://github.com/raouf-b-dev)
+[LinkedIn](https://linkedin.com/in/rbdz)
