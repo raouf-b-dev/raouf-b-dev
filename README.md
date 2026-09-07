@@ -1,35 +1,38 @@
-# Raouf Bouzerara
+# Abderaouf Bouzerara
 
-**Backend Software Engineer · NestJS · TypeScript · PostgreSQL**
+**Backend engineer** · TypeScript · NestJS · PostgreSQL
 
-Backend engineer with 4+ years of experience building production systems with TypeScript, NestJS, PostgreSQL, and Redis.
-
-### Featured Project
-
-**[E-commerce Store API](https://github.com/raouf-b-dev/ecommerce-store-api)**
-
-Production-oriented e-commerce backend built with **NestJS, TypeScript, DDD, and Hexagonal Architecture**.
-
-Built as a portfolio project to demonstrate production backend engineering beyond CRUD, including distributed workflows, concurrency control, security, observability, and failure handling.
-
-- Modular monolith with strict bounded-context boundaries
-- SAGA checkout with automatic compensation
-- Redis-backed idempotency, caching, and search
-- RBAC, IDOR protection, JWT/JWKS, and refresh-token rotation
-- PostgreSQL, Redis, BullMQ, and Docker
-- Prometheus, OpenTelemetry, Grafana, and structured logging
-- Automated testing and CI with GitHub Actions
-
-### Stack
-
-**Backend:** TypeScript · Node.js · NestJS · PostgreSQL · Redis · BullMQ  
-**Architecture:** DDD · Hexagonal · CQRS · SAGA · ACL · Idempotency  
-**Security:** RBAC · JWT/JWKS · Refresh Token Rotation · Rate Limiting  
-**DevOps & Observability:** Docker · GitHub Actions · Prometheus · OpenTelemetry · Grafana  
- **Frontend:** Angular · RxJS · NgRx  
-
-### Currently
-
-Open to **remote Backend Software Engineer / Software Engineer** opportunities.
+Four years as a backend engineer. Looking for a remote role.
 
 [LinkedIn](https://linkedin.com/in/rbdz)
+
+## Projects
+
+The store API and the admin dashboard are one product. The API holds domain logic, auth, and business rules. The dashboard is a React client on top of it.
+
+### [E-commerce Store API](https://github.com/raouf-b-dev/ecommerce-store-api)
+
+NestJS modular monolith covering catalog, cart, checkout, payments, inventory, and identity. Reference backend: run it locally with Docker. Payments use a mock adapter.
+
+- Keep modules independent by talking through gateways and events instead of importing internals.
+- Keep checkout consistent with a compensating BullMQ SAGA. Protect stock with PostgreSQL row locks.
+- Speed up reads and dedupe writes with Redis. Authenticate with RSA JWT/JWKS, rotating refresh tokens, and RBAC.
+- Separate list/detail reads with CQRS query adapters. Fail CI when a module crosses a boundary.
+- Jest, Testcontainers, e2e and integration tests, GitHub Actions.
+- OpenTelemetry, Prometheus, Grafana, and structured logs.
+
+### [E-commerce Admin Dashboard](https://github.com/raouf-b-dev/ecommerce-admin-dashboard)
+
+React (Vite) operator console for that API: products, categories, inventory, orders, users, and roles.
+
+- Generate the UI client from OpenAPI so screens stay aligned with the API. No BFF.
+- Filter nav and pages by permissions for UX. Enforce access on the API.
+- Run against a local API, or MSW when you only need the UI.
+
+## Stack
+
+**Backend:** TypeScript · Node.js · NestJS · PostgreSQL · TypeORM · Redis · BullMQ  
+**Architecture:** DDD · Hexagonal · CQRS · SAGA  
+**Security:** RBAC · JWT/JWKS · refresh-token rotation · rate limiting  
+**Infra:** Docker · GitHub Actions · Jest · Testcontainers · OpenTelemetry · Prometheus · Grafana  
+**Frontend:** Angular · RxJS · NgRx · React · TanStack Query
