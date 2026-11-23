@@ -10,7 +10,11 @@
 
 One open-source ecommerce product across four repos. The API owns the domain and the OpenAPI contract. Admin and storefront are clients generated from that contract. Platform is a Docker Compose setup that runs the pinned images.
 
-Hosted demo coming soon, or run it locally with Compose.
+**Start here (local demo):** clone [ecommerce-platform](https://github.com/raouf-b-dev/ecommerce-platform), then `docker compose up` or `npm run setup`. Mock payments; local demo accounts are labeled in that README. A hosted public demo is in progress.
+
+### [E-commerce Platform](https://github.com/raouf-b-dev/ecommerce-platform)
+
+Compose only. Pulls versioned images for the API, admin, storefront, Postgres, and Redis. One-command local stack.
 
 ### [E-commerce Store API](https://github.com/raouf-b-dev/ecommerce-store-api)
 
@@ -23,10 +27,6 @@ Vite + React operator console for that API. OpenAPI-generated client; no BFF.
 ### [E-commerce Storefront](https://github.com/raouf-b-dev/ecommerce-store-web)
 
 Next.js App Router shopper app for the same API. OpenAPI-typed client; pricing, stock, and checkout stay in the API.
-
-### [E-commerce Platform](https://github.com/raouf-b-dev/ecommerce-platform)
-
-Compose only. Pulls versioned images for the API, admin, storefront, Postgres, and Redis.
 
 ## Stack
 
